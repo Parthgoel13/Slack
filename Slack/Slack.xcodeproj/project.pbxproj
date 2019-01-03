@@ -19,6 +19,7 @@
 		B93F2ECE21DE336D00D08289 /* ChannelGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F2ECD21DE336D00D08289 /* ChannelGradient.swift */; };
 		B93F2ED121DE6A6B00D08289 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F2ED021DE6A6B00D08289 /* Utility.swift */; };
 		B93F2ED321DE9B8300D08289 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F2ED221DE9B8300D08289 /* LoginVC.swift */; };
+		B93F2ED521DEAE9D00D08289 /* CreateAccVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F2ED421DEAE9D00D08289 /* CreateAccVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B93F2ECD21DE336D00D08289 /* ChannelGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelGradient.swift; sourceTree = "<group>"; };
 		B93F2ED021DE6A6B00D08289 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		B93F2ED221DE9B8300D08289 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B93F2ED421DEAE9D00D08289 /* CreateAccVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccVC.swift; sourceTree = "<group>"; };
 		BD9EECD619EC70621CA00365 /* Pods-Slack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slack/Pods-Slack.release.xcconfig"; sourceTree = "<group>"; };
 		DD2DF7CA5423EB46791EA5F6 /* Pods-Slack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slack/Pods-Slack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 				B93F2EC421DCCFD400D08289 /* ChatVC.swift */,
 				B93F2EC621DCD00D00D08289 /* ChannelVC.swift */,
 				B93F2ED221DE9B8300D08289 /* LoginVC.swift */,
+				B93F2ED421DEAE9D00D08289 /* CreateAccVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93F2ED521DEAE9D00D08289 /* CreateAccVC.swift in Sources */,
 				B93F2ED121DE6A6B00D08289 /* Utility.swift in Sources */,
 				B93F2EC921DCDB4700D08289 /* ViewController.swift in Sources */,
 				B93F2ED321DE9B8300D08289 /* LoginVC.swift in Sources */,
